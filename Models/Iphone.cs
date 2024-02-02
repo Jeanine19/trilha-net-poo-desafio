@@ -11,10 +11,10 @@ namespace DesafioPOO.Models
         {
         }
 
-        // Sobrescreve o método abstrato InstalarAplicativo da classe base Smartphone
+        // Sobrescreve o metodo abstrato
         public override void InstalarAplicativo(string nomeApp)
         {
-            // Lógica específica de instalação de aplicativo para iPhone
+            
             Console.WriteLine($"Instalando {nomeApp} no iPhone...");
         }
 
